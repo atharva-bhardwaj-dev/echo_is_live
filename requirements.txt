@@ -1,0 +1,23 @@
+# Core AI model dependencies
+torch
+transformers
+accelerate
+bitsandbytes
+
+# Whisper (local transcription)
+git+https://github.com/openai/whisper.git
+
+# Speech recognition & text-to-speech
+SpeechRecognition
+pyttsx3
+pyaudio
+
+# Audio utilities
+wave
+
+# VTube Studio (optional, via WebSocket)
+websockets
+pyvts
+
+# Utility libraries (already in stdlib, but included for environments that need it)
+typing-extensions
